@@ -1,8 +1,8 @@
 # hp-zhan-66-pro-15-g3
 The repository provides OpenCore configuration files for hp-zhan-66-pro-15-g3.
 
-电脑型号：HP ZHAN 66 Pro 15 G3 笔记本电脑
-操作系统：Windows 10 64位
+电脑型号：HP ZHAN 66 Pro 15 G3 笔记本电脑   
+操作系统：Windows 10 64位   
 处理器：英特尔 Core i7-10510U @ 1.80GHz 四核
 主板：惠普 86A8 ( I/O - 0284 for Intel 400 Series 芯片组 Family On-Package Platform Controller Hub )
 内存：16 GB ( DDR4 2666MHz )
