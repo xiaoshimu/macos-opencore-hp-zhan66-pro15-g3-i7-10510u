@@ -23,8 +23,8 @@ CPU：已睿频
 蓝牙： 已支持  
 SD卡：已支持  
 USB：已修复  
+声卡：OK   
 
 显卡：Nvidia GeForce MX250   已屏蔽  
-声卡：没搞  
 指纹：不支持。 
 WIFI：不支持。   
