@@ -94,6 +94,14 @@
 				<key>Path</key>
 				<string>SSDT-TPDX.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-HP-060D.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HP-060D.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -142,7 +150,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				X1ExMQ==
@@ -176,7 +184,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				X1ExMg==
@@ -206,14 +214,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>BAT BTIF to XTIF</string>
+				<string>In config ACPI, GACW to XGAC</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
-				QlRJRgl5AWhnQg==
+				FCVHQUNX
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
@@ -225,7 +233,7 @@
 				</data>
 				<key>Replace</key>
 				<data>
-				WFRJRgl5AWhnQg==
+				FCVYR0FD
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -236,19 +244,19 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
-				AAAAAA==
+				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>BAT BTST to XTST</string>
+				<string>In config ACPI, GBAW  to XGAB</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
-				QlRTVAp5AWhnQlQ=
+				RQRHQkFX
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
@@ -260,7 +268,7 @@
 				</data>
 				<key>Replace</key>
 				<data>
-				WFRTVAp5AWhnQlQ=
+				RQRYR0FC
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -271,14 +279,84 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
-				AAAAAA==
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, BTIF to XTIF</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				QlRJRgl5
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFRJRgl5
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, BTST to XTST</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				QlRTVAp5
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFRTVAp5
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>I2C _STA to XSTA in TPD0</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -306,19 +384,19 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
-				AAAAAA==
+				RFNEVA==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>ITLB renamed XTLB</string>
+				<string>In config ACPI, ITLB to XITL</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
-				SVRMQgA=
+				SVRMQgB3
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
@@ -330,7 +408,7 @@
 				</data>
 				<key>Replace</key>
 				<data>
-				WFRMQgA=
+				WElUTAB3
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -341,7 +419,250 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
-				AAAAAA==
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, GBTI to XBTI</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R0JUSQFw
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WEJUSQFw
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, GBTC to XGBU</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R0JUQwBw
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WEdCVQBw
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, SBTC to XSBT</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				U0JUQwNw
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFNCVANw
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, GCGC to XGCG</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R0NHQwgI
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WEdDRwgI
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, GPRW to XPRW</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R1BSVwI=
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFBSVwI=
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, EC12 to XC12</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				RUMxMgBw
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WEMxMgBw
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>In config ACPI, EC12 to XC12</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				RUMxMwBw
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WEMxMwBw
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
 				</data>
 			</dict>
 		</array>
@@ -687,6 +1008,38 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1062,6 +1415,38 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>RTCMemoryFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RTCMemoryFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1097,7 +1482,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				</data>
@@ -1130,7 +1515,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				</data>
@@ -1163,7 +1548,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				6AAA//9miYMABQAA
@@ -1251,6 +1636,40 @@
 				<data>
 				MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4Xb
 				dN/D
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string>AppleIntelCFLGraphicsFramebuffer</string>
+				<key>Comment</key>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.15.x</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				D4KnAwAA
+				</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>
+				D4IAAAAA
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -1573,7 +1992,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100</string>
+				<string>keepsyms=1 debug=0x100 rtcfx_exclude=00-FF</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -1647,7 +2066,7 @@
 			<string>C02011902GUN9PRJC</string>
 			<key>ROM</key>
 			<data>
-			ESIzRFVm
+			YkOAUnIS
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1656,7 +2075,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02CF4ZEMD6N</string>
 			<key>SystemUUID</key>
-			<string>C06C26AE-4619-4FEF-AE91-D69880A495D2</string>
+			<string>FB2150E1-63A3-400B-9580-ED06B88C64E2</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
