@@ -37,8 +37,7 @@ USB：已修复
 声卡：OK   
 
 显卡：Nvidia GeForce MX250   已屏蔽  
-指纹：不支持。 
-WIFI：不支持。   
+指纹：不支持。   
 
 配置教程：https://dortania.github.io/vanilla-laptop-guide/OpenCore/config-laptop.plist/coffee-lake-plus.html#platforminfo
 注意：自己的机器请修改为自己的三码，然后登陆APPLE账号
