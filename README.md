@@ -1,6 +1,13 @@
 # hp-zhan-66-pro-15-g3
 The repository provides OpenCore configuration files for hp-zhan-66-pro-15-g3.
 
+#bigsur说明
+bios升级到最新版本。不然可能电池失效
+有限网卡驱动版本为RealtekRTL8111 V2.2.2，3.0驱动有点问题
+触摸板驱动为VoodooI2C-2.4.4，高版本无法适用触摸板
+网卡为原装的AX201，我的DW1820A有点问题，型号为CN-08PKF4，不是这个型号的自己试试
+
+#电脑配置
 电脑型号：HP ZHAN 66 Pro 15 G3 笔记本电脑   
 操作系统：macOS Catalina 10.15.5(19F96)   
 处理器：英特尔 Core i7-10510U @ 1.80GHz 四核   
